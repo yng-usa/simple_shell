@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @@ _getenv - represent env
- * @@ name find env variable
+ * @ _getenv - represent env
+ * @ name find env variable
  * Return : value of env
  */
 char *_getenv(char *name)
@@ -28,8 +28,8 @@ char *_getenv(char *name)
 }
 
 /**
- * @@ _getenv - represent env
- * @@ name find env variable
+ * @ _getenv - represent env
+ * @ name find env variable
  * Return : value of env
  */
 char *_getenv(char *name)
@@ -48,9 +48,9 @@ void print_env(char **cmd, int *sta)
 }
 
 /**
- * _@@GETPATH - takes_ pointer_ to_ array
- * @@command: input
- * @@Return: full_path
+ * _GETPATH - takes_ pointer_ to_ array
+ * @command: input
+ * @Return: full_path
  */
 char *_getpath(char *command)
 {
