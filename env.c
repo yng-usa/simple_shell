@@ -1,9 +1,15 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD:env.c
  * _getenv - represent env
  * @name : find env variable
  * Return: value of env
+=======
+ * @ _getenv - represent env
+ * @ name find env variable
+ * Return : value of env
+>>>>>>> aac1fadb97f11e76a324c3c64488d622bfa35c1f:environment.c
  */
 char *_getenv(char *name)
 {
@@ -28,9 +34,15 @@ char *_getenv(char *name)
 }
 
 /**
+<<<<<<< HEAD:env.c
  * print_env - print env
  * @cmd: input
  * @sta: input
+=======
+ * @ _getenv - represent env
+ * @ name find env variable
+ * Return : value of env
+>>>>>>> aac1fadb97f11e76a324c3c64488d622bfa35c1f:environment.c
  */
 void print_env(char **cmd, int *sta)
 {
@@ -46,9 +58,15 @@ void print_env(char **cmd, int *sta)
 }
 
 /**
+<<<<<<< HEAD:env.c
  * _getpath - takes pointer to array
  * @command: input
  * Return: full_path
+=======
+ * _GETPATH - takes_ pointer_ to_ array
+ * @command: input
+ * @Return: full_path
+>>>>>>> aac1fadb97f11e76a324c3c64488d622bfa35c1f:environment.c
  */
 char *_getpath(char *command)
 {
